@@ -11,14 +11,15 @@ export const siteConfig = {
   },
   nav: [
     { label: 'Início', href: '#hero' },
-    { label: 'Serviços', href: '#servicos' },
-    { label: 'Sobre', href: '#sobre' },
-    { label: 'Contato', href: '#contato' },
+    { label: 'Produtos', href: '#solucoes-software' },
+    { label: 'Serviços', href: '#servicos-ti' },
+    { label: 'Sobre Nós', href: '#sobre' },
+    { label: 'Fale Conosco', href: '#contato' },
   ],
   contact: {
-    email: '',
-    phone: '',
-    address: '',
+    email: 'contato@lxtec.com.br',
+    phone: '(67) 3042-2100',
+    address: 'Av. Afonso Pena, 5668, Campo Grande - MS',
   },
 } as const;
 

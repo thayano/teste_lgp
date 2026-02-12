@@ -14,3 +14,16 @@ export interface ContactInfo {
   phone: string;
   address: string;
 }
+
+export interface Testimonial {
+  name: string;
+  role: string;
+  company: string;
+  quote: string;
+  rating: number;
+}
+
+export interface Partner {
+  name: string;
+  icon: string;
+}
