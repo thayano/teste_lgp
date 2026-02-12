@@ -1,12 +1,5 @@
 import { SectionHeader } from '@/components/shared/section-header';
 import { softwareSolutions } from '@/features/marketing/data';
-import { Workflow, PenTool, FileText } from 'lucide-react';
-
-const iconMap: Record<string, React.ReactNode> = {
-  workflow: <Workflow className="h-6 w-6" />,
-  'pen-tool': <PenTool className="h-6 w-6" />,
-  'file-text': <FileText className="h-6 w-6" />,
-};
 
 export function SoftwareSolutions() {
   return (
@@ -20,15 +13,28 @@ export function SoftwareSolutions() {
           {softwareSolutions.map((service) => (
             <div
               key={service.title}
-              className="group rounded-xl border border-border/60 bg-card p-6 transition-all duration-300 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
+              className={`group flex flex-col justify-between rounded-xl border border-border/60 bg-card p-8 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 ${service.borderColor || 'hover:border-primary/30'}`}
             >
-              <div className="mb-4 inline-flex rounded-lg bg-primary/10 p-3 text-primary transition-colors group-hover:bg-primary/15">
-                {iconMap[service.icon]}
+              <div>
+                <span
+                  className={`mb-4 block text-xs font-bold uppercase tracking-wider ${service.labelColor}`}
+                >
+                  {service.label}
+                </span>
+                <h3
+                  className={`mb-6 text-2xl font-bold uppercase ${service.labelColor}`}
+                >
+                  {service.title}
+                </h3>
+                <p className="mb-8 text-sm leading-relaxed text-muted-foreground">
+                  {service.description}
+                </p>
               </div>
-              <h3 className="mb-2 text-lg font-semibold">{service.title}</h3>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                {service.description}
-              </p>
+              <button
+                className={`w-full rounded-md py-3 text-sm font-semibold text-white transition-colors ${service.buttonColor}`}
+              >
+                Saiba Mais
+              </button>
             </div>
           ))}
         </div>

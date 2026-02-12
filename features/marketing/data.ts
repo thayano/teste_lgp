@@ -3,72 +3,96 @@ import type { Service, Testimonial } from '@/types';
 export const softwareSolutions: Service[] = [
   {
     title: 'GESTÃO DE PROCESSOS',
+    label: 'LX PROCESSOS',
     description:
-      'O gestor poderá acompanhar e analisar os fluxos de processos automatizados e digitalizados em toda a sua empresa.',
+      'Organize, agilize e transforme a gestão de processos com tecnologia eficiente e segura. Menos burocracia, mais resultados.',
     icon: 'workflow',
+    labelColor: 'text-red-500',
+    buttonColor: 'bg-red-500 hover:bg-red-600',
+    borderColor: 'group-hover:border-red-500/30',
   },
   {
     title: 'ASSINATURA DIGITAL',
+    label: 'LX SIGN',
     description:
-      'Realize documentos de maneira totalmente digital. Assine e colete assinaturas de forma rápida e segura, garantindo a validade jurídica.',
+      'Assine documentos com validade jurídica de forma simples, rápida e segura. Mobilidade, agilidade e menos papel no seu dia a dia.',
     icon: 'pen-tool',
+    labelColor: 'text-blue-500',
+    buttonColor: 'bg-blue-500 hover:bg-blue-600',
+    borderColor: 'group-hover:border-blue-500/30',
   },
   {
     title: 'GESTÃO DE DOCUMENTOS',
+    label: 'LX GED',
     description:
-      'Digitalize, armazene e organize todos os documentos da empresa. Acesse informações rapidamente de qualquer lugar com segurança.',
+      'Organize, armazene e acesse seus documentos com agilidade e segurança. Controle total, digitalização simplificada e menos papel.',
     icon: 'file-text',
+    labelColor: 'text-orange-500',
+    buttonColor: 'bg-orange-500 hover:bg-orange-600',
+    borderColor: 'group-hover:border-orange-500/30',
   },
 ];
 
 export const itServices: Service[] = [
   {
     title: 'GESTÃO DE INFRAESTRUTURA DE TI',
+    label: 'CONSULTORIA DE T.I.',
     description:
-      'Analise, monitore e gerencie todos os ativos de TI da sua empresa. Nossa equipe está preparada para gerenciar desde redes de pequeno até grande porte.',
+      'Suporte completo para servidores e redes com foco em disponibilidade, segurança e desempenho. Gerenciamos sua TI de ponta a ponta para garantir operação estável e produtiva.',
     icon: 'monitor',
+    labelColor: 'text-[#00BCD4]', // Cyan/Turquoise
+    buttonColor: 'bg-[#00BCD4] hover:bg-[#00BCD4]/90',
+    borderColor: 'group-hover:border-[#00BCD4]/30',
   },
   {
     title: 'DATA CENTER E LOCAÇÃO DE TI',
+    label: 'SUPORTE ESPECIALIZADO',
     description:
-      'Infraestrutura de alta qualidade para hospedagem segura e eficiente. Armazenamento, backup e segurança em nuvem, hospedagem de sites e domínios personalizados.',
+      'Infraestrutura sob demanda com locação de servidores, VPS, impressoras e soluções em nuvem. Reduza custos com suporte, manutenção e alta performance incluídos.',
     icon: 'server',
+    labelColor: 'text-[#FF4081]', // Pink/Red
+    buttonColor: 'bg-[#FF4081] hover:bg-[#FF4081]/90',
+    borderColor: 'group-hover:border-[#FF4081]/30',
   },
   {
     title: 'FORNECIMENTO CORPORATIVO',
+    label: 'VENDA DE EQUIPAMENTOS',
     description:
-      'Fornecemos equipamentos de TI completos para empresas. Notebooks, desktops, impressoras e soluções completas com garantia, suporte técnico eficiente.',
+      'Comercialização de equipamentos, licenças e softwares 100% voltada para empresas. Soluções personalizadas com instalação, suporte e pós-venda técnico especializado.',
     icon: 'briefcase',
+    labelColor: 'text-[#1A237E]', // Dark Blue
+    buttonColor: 'bg-[#1A237E] hover:bg-[#1A237E]/90',
+    borderColor: 'group-hover:border-[#1A237E]/30',
   },
 ];
 
 export const testimonials: Testimonial[] = [
   {
-    name: 'Google Reviews',
-    role: 'Avaliação',
+    name: 'Ana Silva',
+    role: 'algumas semanas atras',
     company: 'Cliente',
-    quote: 'Excelência de Carreira e Crescimento. ⭐⭐⭐⭐⭐',
+    quote: 'Experiência de Compra Incrível!',
     rating: 5,
   },
   {
-    name: 'Google Reviews',
-    role: 'Avaliação',
+    name: 'Carlos Oliveira',
+    role: 'algumas semanas atras',
     company: 'Cliente',
-    quote: 'Produtos de Alta Qualidade. ⭐⭐⭐⭐⭐',
+    quote: 'Produtos de Alta Qualidade',
     rating: 5,
   },
   {
-    name: 'Google Reviews',
-    role: 'Avaliação',
+    name: 'Beatriz Santos',
+    role: 'algumas semanas atras',
     company: 'Cliente',
-    quote: 'Atendimento ao Cliente Excepcional. ⭐⭐⭐⭐⭐',
+    quote: 'Atendimento ao Cliente Excepcional',
     rating: 5,
   },
   {
-    name: 'Google Reviews',
-    role: 'Avaliação',
+    name: 'Ricardo Mendes',
+    role: 'algumas semanas atras',
     company: 'Cliente',
-    quote: 'Entrega Rápida e Eficiente. ⭐⭐⭐⭐⭐',
+    quote: 'Entrega Rápida e Eficiente',
     rating: 5,
   },
 ];

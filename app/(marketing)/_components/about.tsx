@@ -26,9 +26,10 @@ export function About() {
             <div className="relative aspect-video overflow-hidden rounded-2xl shadow-xl">
               <Image
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&q=80"
-                alt="Quem somos"
+                alt="Equipe trabalhando em ambiente corporativo moderno"
                 fill
                 className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
           </div>

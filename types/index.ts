@@ -7,6 +7,10 @@ export interface Service {
   title: string;
   description: string;
   icon: string;
+  label?: string;
+  labelColor?: string;
+  buttonColor?: string;
+  borderColor?: string;
 }
 
 export interface ContactInfo {

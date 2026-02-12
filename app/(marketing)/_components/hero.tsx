@@ -3,7 +3,10 @@ import { ArrowRight } from 'lucide-react';
 
 function HeroDecorationLeft() {
   return (
-    <div className="pointer-events-none absolute -bottom-20 -left-20 z-0 opacity-30 dark:opacity-[0.15]">
+    <div
+      className="pointer-events-none absolute -bottom-20 -left-20 z-0 opacity-30 dark:opacity-[0.15]"
+      aria-hidden="true"
+    >
       <svg
         width="364"
         height="201"
@@ -115,7 +118,10 @@ function HeroDecorationLeft() {
 
 function HeroDecorationRight() {
   return (
-    <div className="pointer-events-none absolute -top-20 -right-20 z-0 opacity-30 dark:opacity-[0.15]">
+    <div
+      className="pointer-events-none absolute -top-20 -right-20 z-0 opacity-30 dark:opacity-[0.15]"
+      aria-hidden="true"
+    >
       <svg
         width="450"
         height="556"
