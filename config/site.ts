@@ -33,7 +33,6 @@ export const siteConfig = {
     { label: 'Produtos', href: '#solucoes-software' },
     { label: 'Serviços', href: '#servicos-ti' },
     { label: 'Sobre Nós', href: '#sobre' },
-    { label: 'Fale Conosco', href: '#contato' },
   ],
   contact: {
     email: 'contato@lxtec.com.br',

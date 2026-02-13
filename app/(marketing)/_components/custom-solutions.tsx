@@ -48,7 +48,7 @@ export function CustomSolutions() {
             <div className="relative aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-bl from-primary/20 to-primary/5" />
               <Image
-                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=600&fit=crop&q=80"
+                src="/banner_ok.avif"
                 alt="Desenvolvimento de software sob medida"
                 fill
                 className="rounded-2xl object-cover"

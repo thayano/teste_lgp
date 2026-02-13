@@ -6,17 +6,35 @@ const footerLinks = [
   {
     title: 'Produtos',
     links: [
-      { label: 'Gestão de Processos', href: '#solucoes-software' },
-      { label: 'Assinatura Digital', href: '#solucoes-software' },
-      { label: 'Gestão de Documentos', href: '#solucoes-software' },
+      {
+        label: 'Gestão de Processos',
+        href: '/solucoes-software/gestao-de-processos',
+      },
+      {
+        label: 'Assinatura Digital',
+        href: '/solucoes-software/assinatura-digital',
+      },
+      {
+        label: 'Gestão de Documentos',
+        href: '/solucoes-software/gestao-de-documentos',
+      },
     ],
   },
   {
     title: 'Serviços',
     links: [
-      { label: 'Gestão de TI', href: '#servicos-ti' },
-      { label: 'Data Center e Locação', href: '#servicos-ti' },
-      { label: 'Fornecimento Corporativo', href: '#servicos-ti' },
+      {
+        label: 'Gestão de TI',
+        href: '/servicos-ti/gestao-de-infraestrutura-de-ti',
+      },
+      {
+        label: 'Data Center e Locação',
+        href: '/servicos-ti/data-center-e-locacao-de-ti',
+      },
+      {
+        label: 'Fornecimento Corporativo',
+        href: '/servicos-ti/fornecimento-corporativo',
+      },
     ],
   },
 ];

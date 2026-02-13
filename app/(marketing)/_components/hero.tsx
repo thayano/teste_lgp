@@ -4,12 +4,12 @@ import { ArrowRight } from 'lucide-react';
 function HeroDecorationLeft() {
   return (
     <div
-      className="pointer-events-none absolute -bottom-20 -left-20 z-0 opacity-30 dark:opacity-[0.15]"
+      className="pointer-events-none absolute -bottom-28 -left-28 z-0 opacity-30 dark:opacity-[0.30]"
       aria-hidden="true"
     >
       <svg
-        width="364"
-        height="201"
+        width="520"
+        height="290"
         viewBox="0 0 364 201"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -119,12 +119,12 @@ function HeroDecorationLeft() {
 function HeroDecorationRight() {
   return (
     <div
-      className="pointer-events-none absolute -top-20 -right-20 z-0 opacity-30 dark:opacity-[0.15]"
+      className="pointer-events-none absolute -top-28 -right-28 z-0 opacity-30 dark:opacity-[0.30]"
       aria-hidden="true"
     >
       <svg
-        width="450"
-        height="556"
+        width="640"
+        height="790"
         viewBox="0 0 450 556"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -275,12 +275,60 @@ function HeroDecorationRight() {
   );
 }
 
+function HeroGlowBackground() {
+  return (
+    <div
+      className="pointer-events-none absolute inset-0 z-0 overflow-hidden"
+      aria-hidden="true"
+    >
+      {/* Top-left blue glow */}
+      <div
+        className="absolute -top-[20%] -left-[10%] h-[800px] w-[800px] rounded-full opacity-[0.07] blur-[100px] dark:opacity-[0.22]"
+        style={{
+          background:
+            'radial-gradient(circle, oklch(0.55 0.2 264) 0%, transparent 70%)',
+          animation: 'heroGlowFloat 8s ease-in-out infinite',
+        }}
+      />
+      {/* Center-right blue glow */}
+      <div
+        className="absolute top-[10%] right-[5%] h-[700px] w-[700px] rounded-full opacity-[0.06] blur-[120px] dark:opacity-[0.18]"
+        style={{
+          background:
+            'radial-gradient(circle, oklch(0.58 0.18 250) 0%, transparent 70%)',
+          animation: 'heroGlowFloat 10s ease-in-out 2s infinite reverse',
+        }}
+      />
+      {/* Bottom-center blue glow */}
+      <div
+        className="absolute -bottom-[10%] left-[30%] h-[600px] w-[900px] rounded-full opacity-[0.05] blur-[100px] dark:opacity-[0.15]"
+        style={{
+          background:
+            'radial-gradient(ellipse, oklch(0.50 0.22 270) 0%, transparent 70%)',
+          animation: 'heroGlowFloat 12s ease-in-out 4s infinite',
+        }}
+      />
+      {/* Subtle top gradient wash */}
+      <div
+        className="absolute inset-0 opacity-[0.03] dark:opacity-[0.10]"
+        style={{
+          background:
+            'linear-gradient(180deg, oklch(0.55 0.18 264) 0%, transparent 50%)',
+        }}
+      />
+    </div>
+  );
+}
+
 export function Hero() {
   return (
     <section
       id="hero"
       className="relative flex min-h-[85vh] items-center justify-center overflow-hidden"
     >
+      {/* Ambient blue glow background */}
+      <HeroGlowBackground />
+
       {/* Decorative SVG shapes */}
       <HeroDecorationLeft />
       <HeroDecorationRight />

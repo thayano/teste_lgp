@@ -11,15 +11,13 @@ export function About() {
               Quem Somos?
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              Somos uma empresa de soluções e HMC (Hospedada totalmente em Campo
-              Grande - MS), fundada em 2011. Nossa missão é simplificar e
-              democratizar o acesso à tecnologia.
-            </p>
-            <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              Nosso propósito é ajudar as organizações e pessoas a alcançarem
-              seu potencial máximo, fornecendo ferramentas e soluções inovadoras
-              e confiáveis que simplificam processos, aumentam a produtividade e
-              promovem o crescimento sustentável e responsável.
+              Há mais de uma década, a LXTEC Informática impulsiona o sucesso de
+              seus clientes com soluções tecnológicas sob medida. Nossa equipe,
+              apaixonada por tecnologia, transforma desafios em oportunidades,
+              entregando produtos e serviços inovadores que simplificam a gestão
+              da informação e potencializam negócios. Acreditamos que a inovação
+              constante é a chave para construir um futuro mais conectado,
+              eficiente e seguro.
             </p>
           </div>
           <div className="relative w-full lg:w-1/2">
