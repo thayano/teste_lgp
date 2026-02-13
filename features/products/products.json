@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "slug": "lx-processos",
+    "name": "LX Processos",
+    "tagline": "Modernize sua Gestão com menos papel e mais inteligência.",
+    "shortDescription": "Nossa plataforma de Processo Eletrônico e Assinatura Digital centraliza, automatiza e acelera o dia a dia da sua organização com total segurança e mobilidade.",
+    "highlightTitle": "Segurança e Transparência",
+    "highlightDescription": "Interface intuitiva que permite acompanhar o status de cada processo em tempo real. Arraste, solte e organize fluxos de trabalho sem complicação.",
+    "fullDescription": "Transforme seus documentos físicos em digitais com a tecnologia OCR, que permite pesquisar pelo conteúdo dos arquivos anexados. Formalize a abertura de cada processo com um sistema de protocolo que gera automaticamente recibos, capas e guias de envio. Tenha uma visão completa do que está pendente, em andamento ou vencido através de painéis e gráficos interativos. Automatize fluxos de trabalho e encontre qualquer processo ou documento em segundos com nossa busca poderosa. Assine múltiplos documentos de uma só vez com validade jurídica (certificados ICP-Brasil ou do próprio sistema). Acesse tudo e trabalhe de onde estiver, seja no computador, tablet ou smartphone. Garanta a autenticidade de cada documento com um QR Code de verificação instantânea e mantenha todos informados com alertas automáticos sobre cada etapa do processo. Acompanhe em tempo real o impacto positivo da sua organização, com um painel exclusivo que mostra a economia de papel, água e outros recursos.",
+    "features": [
+      {
+        "title": "Assinatura e Validade Jurídica",
+        "description": "Assine múltiplos documentos de uma só vez com validade jurídica (certificados ICP-Brasil ou do próprio sistema)"
+      },
+      {
+        "title": "Digitalização Inteligente (OCR)",
+        "description": "Transforme seus documentos físicos em digitais com a tecnologia OCR, que permite pesquisar pelo conteúdo dos arquivos anexados."
+      },
+      {
+        "title": "Controle e Visualização",
+        "description": "Tenha uma visão completa do que está pendente, em andamento ou vencido através de painéis e gráficos interativos."
+      }
+    ],
+    "mainImage": "/images/products/diagrama_processos.svg",
+    "secondaryImage": "/images/products/infografico_processos.svg",
+    "icon": "workflow",
+    "labelColor": "text-red-500",
+    "buttonColor": "bg-red-500 hover:bg-red-600",
+    "borderColor": "group-hover:border-red-500/30"
+  },
+  {
+    "id": 2,
+    "slug": "lx-sign",
+    "name": "LX Sign",
+    "tagline": "Valide Documentos com Segurança e Agilidade",
+    "shortDescription": "Elimine a burocracia da assinatura em papel. Com nosso módulo de Assinatura Digital, você formaliza documentos em minutos, com total segurança, mobilidade e validade jurídica.",
+    "highlightTitle": "Agilidade e Mobilidade",
+    "highlightDescription": "Assine documentos em lote, de qualquer dispositivo, com total validade jurídica. Uma plataforma ágil e segura com verificação por QR Code e acompanhamento de status em tempo real.",
+    "fullDescription": "Assine múltiplos documentos de uma só vez (em lote) de qualquer lugar, usando seu computador, tablet ou smartphone (aplicativos disponíveis na App Store e Play Store). Use assinaturas eletrônicas Avançadas ou Qualificadas (ICP-Brasil). Verifique a autenticidade de qualquer documento na hora com o QR Code gerado automaticamente pelo sistema. Tenha uma visão completa do fluxo de assinaturas em um painel de controle intuitivo e receba alertas por e-mail para não perder nenhum prazo. Valide seus documentos com a segurança e com a velocidade que o mundo digital exige.",
+    "features": [
+      {
+        "title": "Assinatura em Lote e Mobilidade",
+        "description": "Assine múltiplos documentos de uma só vez (em lote) de qualquer lugar."
+      },
+      {
+        "title": "Conformidade ICP-Brasil",
+        "description": "Use assinaturas eletrônicas Avançadas ou Qualificadas (ICP-Brasil)."
+      },
+      {
+        "title": "Painel de Controle e Alertas",
+        "description": "Tenha uma visão completa do fluxo de assinaturas em um painel de controle intuitivo e receba alertas por e-mail para não perder nenhum prazo."
+      }
+    ],
+    "mainImage": "/images/products/assinatura.svg",
+    "secondaryImage": "/images/products/assinatura_2.svg",
+    "icon": "pen-tool",
+    "labelColor": "text-blue-500",
+    "buttonColor": "bg-blue-500 hover:bg-blue-600",
+    "borderColor": "group-hover:border-blue-500/30"
+  },
+  {
+    "id": 3,
+    "slug": "lx-ged",
+    "name": "LX GED",
+    "tagline": "Organize, Encontre, Assine e Acesse de Qualquer Lugar.",
+    "shortDescription": "Tenha a segurança de uma gestão digital e elimine o uso de papel. Nossa plataforma GED centraliza seu acervo em um ambiente digital, seguro e acessível de qualquer lugar.",
+    "highlightTitle": "Organização do Digital ao Físico",
+    "highlightDescription": "Centralize, busque e assine seus documentos digitalmente. Uma plataforma completa com busca inteligente por conteúdo (OCR), validade jurídica, segurança avançada e acesso de onde estiver.",
+    "fullDescription": "Ache documentos instantaneamente com a busca avançada. A tecnologia OCR permite pesquisar até mesmo dentro do conteúdo dos arquivos digitalizados. Assine documentos no padrão ICP-Brasil diretamente na plataforma, garantindo autenticidade e permitindo o descarte legal dos originais físicos. Use nosso aplicativo mobile para pesquisar, visualizar e baixar documentos em seu smartphone. Acompanhe também os indicadores de sustentabilidade do sistema. Defina níveis de sigilo, gerencie permissões por usuário e monitore todas as ações com um sistema de auditoria completo. Cadastre a localização de seus arquivos físicos — como sala, estante e caixa — para encontrá-los facilmente, mesmo após a digitalização.",
+    "features": [
+      {
+        "title": "Assinatura e Descarte Legal",
+        "description": "Assine documentos no padrão ICP-Brasil diretamente na plataforma, garantindo autenticidade e permitindo o descarte legal dos originais físicos"
+      },
+      {
+        "title": "Acesso Mobile e Download",
+        "description": "Use nosso aplicativo mobile para pesquisar, visualizar e baixar documentos em seu smartphone."
+      },
+      {
+        "title": "Gestão de Arquivo Físico",
+        "description": "Cadastre a localização de seus arquivos físicos — como sala, estante e caixa — para encontrá-los facilmente."
+      }
+    ],
+    "mainImage": "/images/products/ged.svg",
+    "secondaryImage": "/images/products/ged_2.svg",
+    "icon": "file-text",
+    "labelColor": "text-orange-500",
+    "buttonColor": "bg-orange-500 hover:bg-orange-600",
+    "borderColor": "group-hover:border-orange-500/30"
+  },
+  {
+    "id": 4,
+    "slug": "lx-control",
+    "name": "LX Control",
+    "tagline": "Inteligência Estratégica para sua Controladoria",
+    "shortDescription": "Nossa plataforma web unifica as complexas rotinas da controladoria — contratos, auditorias, obras e conformidade legal — em um só lugar, transformando dados em decisões seguras.",
+    "highlightTitle": "Gestão de Contratos",
+    "highlightDescription": "Tenha o controle total da sua controladoria. Monitore contratos, gerencie parcerias e automatize a conformidade com uma plataforma estratégica que centraliza todas as suas operações.",
+    "fullDescription": "Monitore a execução financeira de contratos e o avanço de obras, incluindo medições e aditivos, com total visibilidade. Crie checklists de validação personalizados para qualquer finalidade e gere relatórios técnicos de forma ágil, usando textos padronizados para poupar tempo. Gerencie parcerias com o Terceiro Setor (OSCs), acompanhe a prestação de contas online e centralize a comunicação com o Tribunal de Contas. O sistema notifica sua equipe automaticamente sobre vencimentos de contratos, auditorias e prazos legais, enquanto o painel de controle oferece uma visão completa das atividades.",
+    "features": [
+      {
+        "title": "Monitoramento Financeiro e de Obras",
+        "description": "Monitore a execução financeira de contratos e o avanço de obras, incluindo medições e aditivos."
+      },
+      {
+        "title": "Prestação de Contas e Tribunal",
+        "description": "Acompanhe a prestação de contas online e centralize a comunicação com o Tribunal de Contas."
+      },
+      {
+        "title": "Gestão de Parcerias (OSC)",
+        "description": "Gerencie parcerias com o Terceiro Setor (OSCs), acompanhe a prestação de contas online."
+      }
+    ],
+    "mainImage": "/images/products/control.svg",
+    "secondaryImage": "/images/products/control_2.svg",
+    "icon": "shield-check",
+    "labelColor": "text-[#00BCD4]",
+    "buttonColor": "bg-[#00BCD4] hover:bg-[#00BCD4]/90",
+    "borderColor": "group-hover:border-[#00BCD4]/30"
+  },
+  {
+    "id": 5,
+    "slug": "lx-legislacao",
+    "name": "LX Legislação",
+    "tagline": "Clareza, Agilidade e Transparência",
+    "shortDescription": "Manter a legislação municipal organizada e acessível é um desafio. Nossa plataforma web para gestão de atos legais simplifica todo o processo, oferecendo uma ferramenta poderosa para a administração pública e um portal de transparência completo para o cidadão.",
+    "highlightTitle": "A Versão Consolidada das Leis",
+    "highlightDescription": "Acesse a legislação municipal sempre atualizada em um só lugar. Uma plataforma completa com textos consolidados, busca inteligente e um portal público para total transparência.",
+    "fullDescription": "Chega de consultar dezenas de alterações. O sistema exibe os atos legais de forma consolidada, mostrando o texto vigente com todas as modificações já aplicadas. Navegue facilmente entre as leis e suas alterações através de links automáticos. Ofereça um portal de busca online onde qualquer pessoa pode consultar leis, decretos, portarias e outros documentos oficiais do município. O acesso é simples, ilimitado e pode ser feito de qualquer dispositivo, como celulares e tablets. Centralize a criação e o gerenciamento de todos os tipos de atos, desde projetos de lei até a sanção e publicação. O sistema possui módulos específicos para as necessidades de cada poder, garantindo um fluxo de trabalho integrado. Encontre qualquer documento em segundos. A pesquisa permite buscar por número, data, assunto ou por palavras-chave dentro do texto. O sistema conta até com busca fonética, facilitando a localização mesmo com erros de digitação.",
+    "features": [
+      {
+        "title": "Consolidação Automática de Leis",
+        "description": "O sistema exibe os atos legais de forma consolidada, mostrando o texto vigente com todas as modificações já aplicadas."
+      },
+      {
+        "title": "Navegação por Links Dinâmicos",
+        "description": "Navegue facilmente entre as leis e suas alterações através de links automáticos."
+      },
+      {
+        "title": "Gestão Completa do Processo",
+        "description": "Centralize a criação e o gerenciamento de todos os tipos de atos, desde projetos de lei até a sanção e publicação."
+      }
+    ],
+    "mainImage": "/images/products/legis.svg",
+    "secondaryImage": "/images/products/legis_2.svg",
+    "icon": "scale",
+    "labelColor": "text-[#FF4081]",
+    "buttonColor": "bg-[#FF4081] hover:bg-[#FF4081]/90",
+    "borderColor": "group-hover:border-[#FF4081]/30"
+  },
+  {
+    "id": 6,
+    "slug": "lx-ouvidoria",
+    "name": "LX Ouvidoria",
+    "tagline": "A Ponte Entre o Cidadão e a Gestão Pública",
+    "shortDescription": "A nossa plataforma web de Ouvidoria cria um canal de comunicação transparente e ágil, que transforma a forma como sua instituição ouve o cidadão e gerencia as manifestações.",
+    "highlightTitle": "Canal Aberto com o Cidadão",
+    "highlightDescription": "Registre manifestações com anonimato, acompanhe solicitações por protocolo único e visualize o panorama completo com gráficos por tipo, origem e setor — tudo em uma plataforma transparente e ágil.",
+    "fullDescription": "Facilite o registro de manifestações como elogios, sugestões ou denúncias, com opção de anonimato. O cidadão pode acompanhar sua solicitação com um protocolo único, de forma simples e transparente. Visualize o panorama das manifestações com gráficos por tipo, origem e setor. O sistema direciona cada caso ao setor competente e monitora os prazos de resposta automaticamente. Organize as manifestações por status (em aberto, resolvidas, etc.), registre anotações internas para controle e solicite esclarecimentos antes de formular a resposta final ao cidadão. Emita relatórios gerenciais sobre as manifestações e o perfil dos cidadãos, transformando dados em insights valiosos para a melhoria dos serviços públicos.",
+    "features": [
+      {
+        "title": "Registro e Anonimato",
+        "description": "Facilite o registro de manifestações como elogios, sugestões ou denúncias, com opção de anonimato."
+      },
+      {
+        "title": "Protocolo Único de Acompanhamento",
+        "description": "O cidadão pode acompanhar sua solicitação com um protocolo único, de forma simples e transparente."
+      },
+      {
+        "title": "Relatórios Gerenciais e Insights",
+        "description": "Emita relatórios gerenciais sobre as manifestações e o perfil dos cidadãos, transformando dados em insights valiosos para a melhoria dos serviços públicos."
+      }
+    ],
+    "mainImage": "/images/products/ouvidoria.svg",
+    "secondaryImage": "/images/products/ouvidoria_2.svg",
+    "icon": "message-circle",
+    "labelColor": "text-[#1A237E]",
+    "buttonColor": "bg-[#1A237E] hover:bg-[#1A237E]/90",
+    "borderColor": "group-hover:border-[#1A237E]/30"
+  }
+]

@@ -7,16 +7,28 @@ const footerLinks = [
     title: 'Produtos',
     links: [
       {
-        label: 'Gestão de Processos',
-        href: '/solucoes-software/gestao-de-processos',
+        label: 'LX Processos',
+        href: '/solucoes-software/lx-processos',
       },
       {
-        label: 'Assinatura Digital',
-        href: '/solucoes-software/assinatura-digital',
+        label: 'LX Sign',
+        href: '/solucoes-software/lx-sign',
       },
       {
-        label: 'Gestão de Documentos',
-        href: '/solucoes-software/gestao-de-documentos',
+        label: 'LX GED',
+        href: '/solucoes-software/lx-ged',
+      },
+      {
+        label: 'LX Control',
+        href: '/solucoes-software/lx-control',
+      },
+      {
+        label: 'LX Legislação',
+        href: '/solucoes-software/lx-legislacao',
+      },
+      {
+        label: 'LX Ouvidoria',
+        href: '/solucoes-software/lx-ouvidoria',
       },
     ],
   },
